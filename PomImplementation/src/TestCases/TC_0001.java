@@ -15,5 +15,6 @@ RegisterPage registerObj = PageFactory.initElements(driver, RegisterPage.class);
 registerObj.enterEmail();
 registerObj.enterPassword();
 registerObj.firstName();
+registerObj.confirmEnterPassword();
 }
 }

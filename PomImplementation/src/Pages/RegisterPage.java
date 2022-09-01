@@ -9,6 +9,7 @@ public class RegisterPage
 	@FindBy(name="fld_username") WebElement userNameTextBox; 
 	@FindBy(name="fld_email") WebElement userEmailTextBox;
 	@FindBy(xpath="//input[@type='password']") WebElement userPasswordTextBox;
+	@FindBy(name="fld_cpassword")WebElement userConfirmPasswordTextBox;
 
 public void firstName()
 {
@@ -24,5 +25,9 @@ public void enterPassword()
 {
 	userPasswordTextBox.sendKeys("123456");
 
+}
+public void confirmEnterPassword()
+{
+	userConfirmPasswordTextBox.sendKeys("123456");
 }
 }
