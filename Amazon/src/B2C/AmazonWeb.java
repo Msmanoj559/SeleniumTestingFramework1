@@ -16,7 +16,7 @@ public class AmazonWeb
 	@BeforeMethod
 	public void startBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Manoj\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Manoj\\Downloads\\driver\\chromedriver.exe");
 		driver=new ChromeDriver(); 
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in");

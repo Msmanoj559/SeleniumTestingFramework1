@@ -11,7 +11,14 @@ public class TC_0001 extends InstansiateDriver
 	@Test
 public void tcase1() throws InterruptedException 
 {
-RegisterPage registerObj = PageFactory.initElements(driver, RegisterPage.class);
+		
+//Approach 1
+//RegisterPage registerObj = PageFactory.initElements(driver, RegisterPage.class);
+		
+//Approach 2
+RegisterPage registerObj=new RegisterPage();
+PageFactory.initElements(driver, registerObj);
+
 registerObj.enterEmail();
 registerObj.enterPassword();
 registerObj.firstName();

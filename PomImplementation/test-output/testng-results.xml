@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-01T21:56:01 IST" name="Default suite" finished-at="2022-09-01T21:56:10 IST" duration-ms="9246">
+  <suite started-at="2022-09-04T18:48:05 IST" name="Default suite" finished-at="2022-09-04T18:48:18 IST" duration-ms="13257">
     <groups>
     </groups>
-    <test started-at="2022-09-01T21:56:01 IST" name="Default test" finished-at="2022-09-01T21:56:10 IST" duration-ms="9246">
+    <test started-at="2022-09-04T18:48:05 IST" name="Default test" finished-at="2022-09-04T18:48:18 IST" duration-ms="13257">
       <class name="TestCases.TC_0001">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:TestCases.TC_0001@2145b572]" started-at="2022-09-01T21:56:01 IST" name="startBrowser" finished-at="2022-09-01T21:56:07 IST" duration-ms="6568" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:TestCases.TC_0001@2145b572]" started-at="2022-09-04T18:48:05 IST" name="startBrowser" finished-at="2022-09-04T18:48:09 IST" duration-ms="4069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="tcase1()[pri:0, instance:TestCases.TC_0001@2145b572]" started-at="2022-09-01T21:56:07 IST" name="tcase1" finished-at="2022-09-01T21:56:08 IST" duration-ms="181" status="PASS">
+        <test-method signature="tcase1()[pri:0, instance:TestCases.TC_0001@2145b572]" started-at="2022-09-04T18:48:09 IST" name="tcase1" finished-at="2022-09-04T18:48:18 IST" duration-ms="9157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcase1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_0001@2145b572]" started-at="2022-09-01T21:56:08 IST" name="closeBrowser" finished-at="2022-09-01T21:56:10 IST" duration-ms="2466" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_0001@2145b572]" started-at="2022-09-04T18:48:18 IST" name="closeBrowser" finished-at="2022-09-04T18:48:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
