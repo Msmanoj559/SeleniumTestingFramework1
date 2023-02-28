@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-02T22:22:39 IST" name="Default suite" finished-at="2023-02-02T22:22:44 IST" duration-ms="5219">
+  <suite started-at="2023-02-28T09:36:39 IST" name="Default suite" finished-at="2023-02-28T09:36:44 IST" duration-ms="5654">
     <groups>
     </groups>
-    <test started-at="2023-02-02T22:22:39 IST" name="Default test" finished-at="2023-02-02T22:22:44 IST" duration-ms="5219">
+    <test started-at="2023-02-28T09:36:39 IST" name="Default test" finished-at="2023-02-28T09:36:44 IST" duration-ms="5654">
       <class name="B2C.AmazonWeb">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:B2C.AmazonWeb@15eb5ee5]" started-at="2023-02-02T22:22:39 IST" name="startBrowser" finished-at="2023-02-02T22:22:44 IST" duration-ms="5172" status="FAIL">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:B2C.AmazonWeb@15eb5ee5]" started-at="2023-02-28T09:36:39 IST" name="startBrowser" finished-at="2023-02-28T09:36:44 IST" duration-ms="5594" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 104
-Current browser version is 109.0.5414.120 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.105 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'MANOJ', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'MANOJ', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 104
-Current browser version is 109.0.5414.120 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.105 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'MANOJ', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'MANOJ', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
@@ -75,21 +75,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="tc001_home()[pri:0, instance:B2C.AmazonWeb@15eb5ee5]" started-at="2023-02-02T22:22:44 IST" name="tc001_home" finished-at="2023-02-02T22:22:44 IST" duration-ms="0" status="SKIP">
+        <test-method signature="tc001_home()[pri:0, instance:B2C.AmazonWeb@15eb5ee5]" started-at="2023-02-28T09:36:44 IST" name="tc001_home" finished-at="2023-02-28T09:36:44 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 104
-Current browser version is 109.0.5414.120 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.105 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'MANOJ', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'MANOJ', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 104
-Current browser version is 109.0.5414.120 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.105 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'MANOJ', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'MANOJ', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
@@ -143,7 +143,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc001_home -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:B2C.AmazonWeb@15eb5ee5]" started-at="2023-02-02T22:22:44 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675356764304" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:B2C.AmazonWeb@15eb5ee5]" started-at="2023-02-28T09:36:44 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1677557204711" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
