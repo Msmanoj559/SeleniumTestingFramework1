@@ -29,7 +29,7 @@ public void createDriver()
 	driver=new FirefoxDriver();
 	
 	driver.manage().window().maximize();
-	driver.get("https://nhl-nhlpawlp-stg1.agilecollab.com/User/Login?ReturnUrl=%2F");
+	driver.get("https://unlmt-webapp-stage.azurewebsites.net/");
 }
 
 @Test
@@ -40,10 +40,14 @@ driver.findElement(By.id("password")).sendKeys("Admin@123");
 driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
 driver.findElement(By.id("AccessCode")).sendKeys("123456");
 driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
-Actions ActObject=new Actions(driver);
+
+//Actions ActObject=new Actions(driver);
+//ActObject.moveToElement(driver.findElement(By.xpath(""))).perform();
 
 //Click on moreresource to go in video feature page
-ActObject.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'More Resources')]"))).perform();
+Thread.sleep(8000);
+driver.findElement(By.xpath("//*[@id=\"HeaderWithoutProfile\"]/div[2]/div/nav/div/ul/li[5]/a")).click();
+
 driver.findElement(By.xpath("//a[contains(text(),'UNLMT Video Features')]")).click();
 driver.findElement(By.name("Search")).sendKeys("testings");
 driver.findElement(By.xpath("//Span[@class=\"dib pa2 ba b--moon-gray hover-bg-blue hover-b--blue c-pointer\"]")).click();
@@ -51,7 +55,7 @@ driver.findElement(By.xpath("//Span[@class=\"dib pa2 ba b--moon-gray hover-bg-bl
 driver.findElement(By.xpath("//label[@class='container db relative f5 fw7 black tl']")).click();
 driver.findElement(By.id("btnCross")).click();
 //driver.findElement(By.xpath("//div[@class=\"relative h-100 w-100 c-pointer\"]//img[@src=\"https://unlmtmediaservicedev-cact.streaming.media.azure.net/aef88366-6afc-44d2-93af-c465e820f780/Thumbnail000001.jpg\"]")).click();
-ActObject.moveToElement(driver.findElement(By.xpath("//div[@class='w-auto flex']"))).perform();
+//ActObject.moveToElement(driver.findElement(By.xpath("//div[@class='w-auto flex']"))).perform();
 driver.findElement(By.xpath("//div[@class='w-100 scrollbar']//p[contains(text(),'test')]")).click();
 driver.findElement(By.name("Search")).sendKeys("test");
 driver.findElement(By.id("btnSearchVideoClear")).click();
@@ -75,19 +79,13 @@ driver.findElement(By.name("MobilePhone")).sendKeys("+918894316392");
 //driver.findElement(By.id("divProfileCountry']")).click();
 List<WebElement> allOptions = driver.findElements(By.xpath("//ul[@class=\"select-options scrollbar\"]"));
 System.out.println(allOptions.size());
-
 for(int i = 0; i<=allOptions.size()-1; i++) {   
     if(allOptions.get(i).getText().contains("ANGOLA")) {
         allOptions.get(i).click();
         break;
-       
     }
+	}
 }
-
-
-
-}
-
 @AfterMethod
 public void closeBrowser()
 {
