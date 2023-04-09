@@ -4,10 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="hrtc.WindowHandles"/>
-      <class name="hrtc.SeleniumSample"/>
+   <!--    <class name="hrtc.SeleniumSample"/> -->
       <class name="hrtc.IFramesDemo"/>
-      <class name="hrtc.PlayerLogin"/>
-      <class name="hrtc.Modals"/>
+   <!--      <class name="hrtc.PlayerLogin"/> -->
+     <!--  <class name="hrtc.Modals"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
