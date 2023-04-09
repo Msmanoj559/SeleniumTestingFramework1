@@ -110,7 +110,7 @@ driver.findElement(By.xpath("//*[@id=\"Textbox\"]/button")).click();
 Alert alert2 = driver.switchTo().alert();
 alert2.getText();
 Thread.sleep(3000);
-//alert2.sendKeys("mks");
+alert2.sendKeys("mks");
 alert2.accept();
 
 String getText1= driver.findElement(By.xpath("//*[@id=\"demo1\"]")).getText();

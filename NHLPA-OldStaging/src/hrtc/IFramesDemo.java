@@ -19,11 +19,11 @@ public void startBrowser(){
 System.setProperty("webdriver.gecko.driver", "./driver/geckodriver.exe");
 driver=new FirefoxDriver();
 driver.manage().window().maximize();
-//driver.navigate().to("https://demo.automationtesting.in/Frames.html");
-driver.get("https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe");
+driver.navigate().to("https://demo.automationtesting.in/Frames.html");
+//driver.get("https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe");
 }
 
-@Test(enabled = false)
+@Test
 public void TC_iframe001() throws InterruptedException
 {
 driver.switchTo().frame("SingleFrame");
@@ -47,7 +47,7 @@ driver.findElement(By.xpath("/html/body/section/div/div/div/input")).sendKeys("M
 }
 
 
-@Test
+@Test(enabled = false)
 public void w3school_Tciframe()
 {
 driver.switchTo().frame("iframeResult"); //outer frame
