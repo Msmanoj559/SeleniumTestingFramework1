@@ -2,34 +2,34 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-06T22:08:56 IST" name="Suite" finished-at="2023-04-06T22:09:29 IST" duration-ms="32616">
+  <suite started-at="2023-04-09T18:58:19 IST" name="Suite" finished-at="2023-04-09T18:58:53 IST" duration-ms="33379">
     <groups>
     </groups>
-    <test started-at="2023-04-06T22:08:56 IST" name="Test" finished-at="2023-04-06T22:09:29 IST" duration-ms="32616">
+    <test started-at="2023-04-09T18:58:19 IST" name="Test" finished-at="2023-04-09T18:58:53 IST" duration-ms="33379">
       <class name="hrtc.IFramesDemo">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:hrtc.IFramesDemo@3c407114]" started-at="2023-04-06T22:08:56 IST" name="startBrowser" finished-at="2023-04-06T22:09:05 IST" duration-ms="8515" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:hrtc.IFramesDemo@3c407114]" started-at="2023-04-09T18:58:20 IST" name="startBrowser" finished-at="2023-04-09T18:58:27 IST" duration-ms="7713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="w3school_Tciframe()[pri:0, instance:hrtc.IFramesDemo@3c407114]" started-at="2023-04-06T22:09:05 IST" name="w3school_Tciframe" finished-at="2023-04-06T22:09:06 IST" duration-ms="873" status="PASS">
+        <test-method signature="w3school_Tciframe()[pri:0, instance:hrtc.IFramesDemo@3c407114]" started-at="2023-04-09T18:58:27 IST" name="w3school_Tciframe" finished-at="2023-04-09T18:58:29 IST" duration-ms="1325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- w3school_Tciframe -->
-        <test-method is-config="true" signature="close()[pri:0, instance:hrtc.IFramesDemo@3c407114]" started-at="2023-04-06T22:09:06 IST" name="close" finished-at="2023-04-06T22:09:08 IST" duration-ms="1962" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:hrtc.IFramesDemo@3c407114]" started-at="2023-04-09T18:58:29 IST" name="close" finished-at="2023-04-09T18:58:32 IST" duration-ms="3520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- hrtc.IFramesDemo -->
       <class name="hrtc.SeleniumSample">
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:hrtc.SeleniumSample@71809907]" started-at="2023-04-06T22:09:08 IST" name="createDriver" finished-at="2023-04-06T22:09:28 IST" duration-ms="19901" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:hrtc.SeleniumSample@71809907]" started-at="2023-04-09T18:58:32 IST" name="createDriver" finished-at="2023-04-09T18:58:51 IST" duration-ms="19270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method signature="testAutomation0001()[pri:0, instance:hrtc.SeleniumSample@71809907]" started-at="2023-04-06T22:09:28 IST" name="testAutomation0001" finished-at="2023-04-06T22:09:28 IST" duration-ms="624" status="PASS">
+        <test-method signature="testAutomation0001()[pri:0, instance:hrtc.SeleniumSample@71809907]" started-at="2023-04-09T18:58:51 IST" name="testAutomation0001" finished-at="2023-04-09T18:58:52 IST" duration-ms="809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAutomation0001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hrtc.SeleniumSample@71809907]" started-at="2023-04-06T22:09:28 IST" name="closeBrowser" finished-at="2023-04-06T22:09:29 IST" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hrtc.SeleniumSample@71809907]" started-at="2023-04-09T18:58:52 IST" name="closeBrowser" finished-at="2023-04-09T18:58:53 IST" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

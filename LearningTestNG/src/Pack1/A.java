@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 
 public class A 
 {
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void Start()
 	{
 		System.out.println("Start");
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void close()
 	{
 		System.out.println("Close Browser");

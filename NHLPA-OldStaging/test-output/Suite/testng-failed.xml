@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="hrtc.PlayerLogin">
+        <methods>
+          <include name="bookTicket"/>
+          <include name="createDriver"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- hrtc.PlayerLogin -->
+      <class name="hrtc.WindowHandles">
+        <methods>
+          <include name="createDriver"/>
+          <include name="closeBrowser"/>
+          <include name="alertTC_001"/>
+        </methods>
+      </class> <!-- hrtc.WindowHandles -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

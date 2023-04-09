@@ -8,25 +8,26 @@ import org.testng.annotations.Test;
 
 public class B 
 {
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void Start()
 	{
 		System.out.println("Start Browser");
 	}
-	@Test
+	
+	@Test(groups= {"Sanity", "High"})
 public void Tc_001()
 {
-	System.out.println("Test Case: 001");
+	System.out.println("Test Case: Sanity");
 }
-	@Test
-public void Tc_002()
-{
-	System.out.println("Test Case: 002");
-	Assert.assertEquals("Hello", "Hillo");
-}
+	
+	@Test(groups= {"Medium", "Smoke"})
+	public void Tc_002()
+	{
+	System.out.println("Test Case: Smoke");
+	Assert.assertEquals("Hello", "Hello");
+	}
 
-
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 public void Close()
 {
 	System.out.println("Close Browser");

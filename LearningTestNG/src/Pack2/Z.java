@@ -11,9 +11,9 @@ public void Start()
 {
 	System.out.println("Start IT");
 }
-@Test
+@Test(groups= {"High","Sanity"})
 public void Tc_1() {
-	System.out.println("Tc_1 is here");
+	System.out.println("Tc_1 is - Sanity");
 }
 @AfterMethod
 public void close()

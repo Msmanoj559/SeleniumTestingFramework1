@@ -12,7 +12,7 @@ public class AmazonWeb
 
 
 {
-	public ChromeDriver driver;
+	public ChromDriver driver;
 	@BeforeMethod
 	public void startBrowser()
 	{

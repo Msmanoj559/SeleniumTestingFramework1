@@ -12,8 +12,9 @@
       </class> <!-- Pack1.A -->
       <class name="Pack1.C">
         <methods>
+          <include name="Tc_001"/>
           <include name="Start"/>
-          <include name="Tc_003"/>
+          <include name="Tc_002"/>
           <include name="Close"/>
         </methods>
       </class> <!-- Pack1.C -->
